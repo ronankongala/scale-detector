@@ -2,7 +2,7 @@
 
 **Drop a song. Get the key. Shift the pitch.**
 
-[**→ Try it live**](https://ronankongala.github.io/scale-detector) &nbsp;|&nbsp; [Download full version](https://ronankongala.github.io/scale-detector/scale-detector.html) &nbsp;|&nbsp; [server.py](https://ronankongala.github.io/scale-detector/server.py)
+[**→ Try it live**](https://ronankongala.github.io/scale-detector) &nbsp;|&nbsp; [Download full version](https://ronankongala.github.io/scale-detector/scale-detector.html) &nbsp;|&nbsp; [server.py](https://github.com/ronankongala/scale-detector/blob/main/server.py.txt)
 
 ---
 
@@ -24,7 +24,7 @@ C   C#  D   D#  E   F   F#  G   G#  A   A#  B
 |---|---|
 | Just detect a key | Open `scale-detector.html` in Chrome, drop any audio file |
 | Analyze a YouTube song | Run `python server.py`, paste the URL |
-| Pitch shift the audio | Hit **+** or **−** after analyzing — audio actually shifts |
+| Pitch shift the audio | Hit **+** or **−** after analyzing -- audio actually shifts |
 | Use the live demo | [ronankongala.github.io/scale-detector](https://ronankongala.github.io/scale-detector) (file upload only) |
 
 ---
