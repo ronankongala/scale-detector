@@ -24,7 +24,7 @@ C   C#  D   D#  E   F   F#  G   G#  A   A#  B
 |---|---|
 | Just detect a key | Open `scale-detector.html` in Chrome, drop any audio file |
 | Analyze a YouTube song | Run `python server.py`, paste the URL |
-| Pitch shift the audio | Hit **+** or **−** after analyzing -- audio actually shifts |
+| Pitch shift the audio | Hit **+** or **−** after analyzing (the audio shifts, not just the key label) |
 | Use the live demo | [ronankongala.github.io/scale-detector](https://ronankongala.github.io/scale-detector) (file upload only) |
 
 ---
@@ -59,12 +59,12 @@ Krumhansl-Schmuckler profiles  →  Pearson correlation × 24 keys
 
 ## Features
 
-- 🎯 Key + scale detection with confidence score
-- 📊 Live chromagram (root = pink, scale notes = purple)
-- 🎹 Transpose display + actual audio pitch shifting
-- ▶️ Built-in player with speed control (0.5× → 2×)
-- 📥 YouTube download via yt-dlp
-- ⬇️ Download the pitch-shifted audio
+- Key and scale detection with a confidence score
+- Live chromagram (root in pink, scale notes in purple)
+- Transpose display with pitch shifting applied to the audio itself
+- Built-in player with speed control (0.5× → 2×)
+- YouTube download via yt-dlp
+- Export of the pitch-shifted audio
 
 ---
 
